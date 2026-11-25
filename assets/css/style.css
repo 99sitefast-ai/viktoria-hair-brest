@@ -71,8 +71,8 @@ ul{margin:0;padding:0;list-style:none}
 
 /* --- герой --- */
 .hero{position:relative;background:var(--ink);color:var(--cream);overflow:hidden}
-.hero-in{display:grid;grid-template-columns:1.02fr .98fr;min-height:min(86vh,720px)}
-.hero-txt{padding:clamp(38px,5.5vw,74px) clamp(22px,4vw,56px) clamp(38px,5.5vw,64px) clamp(18px,4vw,40px);display:flex;flex-direction:column;justify-content:center;max-width:calc(var(--wrap)/2 + 90px);margin-left:auto}
+.hero-in{display:grid;grid-template-columns:1.02fr .98fr;min-height:min(76vh,630px)}
+.hero-txt{padding:clamp(30px,4.4vw,58px) clamp(22px,4vw,56px) clamp(30px,4.4vw,52px) clamp(18px,4vw,40px);display:flex;flex-direction:column;justify-content:center;max-width:calc(var(--wrap)/2 + 90px);margin-left:auto}
 .hero h1{font-family:var(--osw);font-weight:600;text-transform:uppercase;font-size:clamp(2.05rem,4.6vw,3.9rem);line-height:1;margin-top:16px}
 .hero h1 em{font-family:var(--serif);font-style:italic;font-weight:500;text-transform:none;color:var(--copper-l)}
 .hero-sub{margin-top:18px;max-width:44ch;color:rgba(247,241,232,.78);font-size:clamp(15px,1.6vw,17px)}
